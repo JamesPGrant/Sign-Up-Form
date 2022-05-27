@@ -1,0 +1,84 @@
+*{
+    margin:0;
+}
+
+::root{
+    --bg-color: rgba(0,0,0, 1);
+}
+
+::root{
+    --bg-color:black;
+}
+
+.container1{
+    display:flex;
+}
+.container2{
+    display:flex;
+}
+
+.rainyNight{
+    display:block;
+    height: 1150px;
+    width:780px;
+}
+
+.odin{
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:780px;
+    height:390px;
+    top:35%;
+}
+
+.relativeOdin{
+    position:relative;
+}
+
+.loremipsum{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    border:2px solid black;
+    box-sizing:border-box;
+    width: 100%;
+    height: 300px;
+    padding:50px;
+    background-color: black;
+    color:white;
+    font-size:32px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.signup{
+    padding-top:20px;
+}
+
+.forms{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:50px;
+    background-color:rgb(53, 53, 53);
+    color:white;
+    height:400px;
+    padding:50px;
+    font-size:32px;
+}
+
+.submissionScreen{
+    background-color:black;
+    height: 250px;
+    padding:50px;
+}
+
+.submissionScreen button{
+    background-color:rgb(212, 57, 82);
+    padding:20px;
+    color:black;
+    font-size:20px;
+    border-radius:5px;
+}
