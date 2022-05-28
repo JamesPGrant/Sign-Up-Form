@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <title>Sign-up</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -28,28 +28,44 @@
         <div class="forms">
             <div class="A">
             <form action="" method="GET">
+                <div class="blank">
             <label for="fname" id="namelabel">First Name: </label>
+            </div>
             <input type="text" name="fname" id="fname" for="fname">
+            <div class="blank">
             <label for="lastName" id="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" for="lname">
+        </div>
+            <input type="text" name="lname" id="lname" for="lastName1">
         </div>
         <div class="B">
+            <div class="blank">
             <label for="email" id="emailField">Email:</label>
+        </div>
             <input type="email" name="email" id="emailInput" for="email" required>
+            <div class="blank">
             <label for="phone" id="phonenumberlabel">Phone Number:</label>
-            <input type="tel" name="telephone" id="telephoneNum" for="phone" required>
+        </div>
+            <input type="tel" name="telephone" id="telephoneNum" for="phone1" required>
         </div>
         <div class="C">
-            <label for="password" id="passwordlabel">Password:</label>
-            <input type="password" name="password" id="passwordID" for="password" required>
-            <label for="password" id="passwordlabel">Confirm Password:</label>
-            <input type="password" name="password" id="passwordID" for="password" required>
+            <div class="blank">
+            <label for="password" id="passwordlabel1">Password:</label>
         </div>
-            </form>
+            <input type="password" name="password" id="passwordID" for="password" required>
+            <div class="blank">
+            <label for="password" id="passwordlabel2">Confirm Password:</label>
+        </div>
+            <input type="password" name="password" id="passwordID" for="password" required>
+        </div>  
         </div>
         <div class="submissionScreen">
             <button type="submit">Submit</button>
+            <div class="login">
+            <p>Already have an account? <a href="">Log in!</a></p>
         </div>
+            
+        </div>
+    </form>
     </div>
   </div>
 </div>
