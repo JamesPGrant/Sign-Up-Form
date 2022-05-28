@@ -9,6 +9,16 @@
     --other-color:rgb(230,0,74);
 }
 
+@font-face{
+    font-family:'Norse Bold';
+    src:url(./images/Norse-Bold.otf);
+}
+
+@font-face{
+    font-family:'Norse';
+    font-weight:bold;
+    src:url('./images/Norse-Bold.otf');
+}
 .container{
     display:flex;
     width:100vw;
@@ -28,22 +38,29 @@
     height: 300px;
     width: 50vh;
     top:25%;
-    font-size:50px;
+    font-size:  100px;
     background-color:rgba(0, 0, 0, 0.5);
     color:whitesmoke;
+}
+
+.Odin{
+    font-family:'Norse Bold';
 }
 
 .Odin img{
     height:300px;
 }
-
+.formcontainer{
+    width:100vw;
+    background-color:var(--bg-color);
+}
 .intro{
     height: 200px;
-    width:100vw;
+    width:50vw;
     background-color:var(--bg-color);
     color:white;
     font-family:'PT Sans Narrow', Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     overflow:hidden;
     padding:50px;
 }
@@ -64,15 +81,10 @@
     background-color:var(--bg-color);
     border:2px solid  rgb(182, 182, 182);
     color:rgb(209, 209, 209);
-    font-size:14px;
+    font-size:0.875rem;
     font-family:'PT Sans Narrow','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.submit{
-    background-color:var(--bg-color);
-    height:100vh;
-    padding:50px;
-}
 
 .names{
     display:flex;
@@ -97,6 +109,11 @@
     margin-bottom:20px;
 }
 
+.submit{
+    background-color:var(--bg-color);
+    padding:50px;
+}
+
 .submit button{
     padding:20px;
     border-radius:20px;
@@ -105,7 +122,12 @@
     border:5px solid var(--other-color);
     box-shadow:5px 5px rgb(204, 6, 69);
     text-shadow: 1px 2px rgb(247, 145, 162);
-    font-size:26px;
+    font-size:1.75rem;
+}
+
+button:hover{
+    background-color:var(--other-color);
+    color:var(--bg-color);
 }
 
 .login{
